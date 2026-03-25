@@ -1,0 +1,93 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QSLaundry</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; }
+    header { background: linear-gradient(135deg,#007bff,#00c6ff); color: white; padding: 40px 20px; text-align: center; }
+    header h1 { margin: 0; font-size: 32px; }.promo { background: orange; color: white; text-align: center; padding: 10px; font-weight: bold; }
+
+nav { background: #222; padding: 10px; text-align: center; }
+nav a { color: white; margin: 0 15px; text-decoration: none; }
+
+.container { padding: 20px; max-width: 900px; margin: auto; }
+
+.card { background: #f9f9f9; padding: 15px; margin: 10px 0; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+
+h2 { color: #007bff; }
+
+.price { font-weight: bold; color: green; }
+
+.order-btn {
+  display: block;
+  text-align: center;
+  background: #28a745;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.wa-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: green;
+  color: white;
+  padding: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer { background: #222; color: white; text-align: center; padding: 15px; margin-top: 20px; }
+
+  </style>
+</head>
+<body><header>
+  <h1>QSLaundry</h1>
+  <p>Bersih • Wangi • Cepat • Profesional</p>
+  <p>Gratis Antar Jemput 🚚</p>
+</header><div class="promo">
+  PROMO! Laundry Mulai 5.000/kg • Gratis Antar Jemput!
+</div><nav>
+  <a href="#layanan">Layanan</a>
+  <a href="#paket">Paket</a>
+  <a href="#order">Order</a>
+</nav><div class="container">  <h2 id="layanan">Layanan Utama</h2>
+  <div class="card">
+    <p>Cuci + Setrika <span class="price">Rp 8.000 / kg</span></p>
+    <p>Setrika Saja <span class="price">Rp 6.000 / kg</span></p>
+    <p>Cuci + Lipat <span class="price">Rp 5.000 / kg</span></p>
+    <a class="order-btn" href="https://wa.me/6282289925051?text=Halo%20QSLaundry,%20saya%20mau%20order%20laundry">ORDER SEKARANG</a>
+  </div>  <h2 id="paket">Paket Bulanan</h2>
+  <div class="card">
+    <p>Mulai dari Rp 105.000 / bulan</p>
+    <p>Lebih hemat untuk pelanggan rutin!</p>
+    <a class="order-btn" href="https://wa.me/6282289925051?text=Halo%20QSLaundry,%20saya%20tertarik%20paket%20bulanan">Ambil Paket</a>
+  </div>  <h2 id="order">Cara Order</h2>
+  <div class="card">
+    <p>1. Klik tombol ORDER</p>
+    <p>2. Chat WhatsApp</p>
+    <p>3. Kami jemput laundry ke rumah Anda</p>
+    <p>4. Selesai & diantar kembali</p>
+  </div>  <h2>Kenapa Pilih Kami?</h2>
+  <div class="card">
+    <p>✅ Gratis antar jemput</p>
+    <p>✅ Harga murah & transparan</p>
+    <p>✅ Wangi & bersih maksimal</p>
+    <p>✅ Pelayanan cepat</p>
+  </div>  <h2>Kontak</h2>
+  <div class="card">
+    <p><b>Alamat:</b> Jln Jendral Labuh Baru Timur, Payung Sekaki, Pekanbaru</p>
+    <p><b>WhatsApp:</b> 082289925051</p>
+  </div></div><a class="wa-btn" href="https://wa.me/6282289925051?text=Halo%20saya%20mau%20order%20laundry" target="_blank">Chat WA</a>
+
+<footer>
+  <p>&copy; 2026 QSLaundry</p>
+</footer></body>
+</html>
