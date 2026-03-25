@@ -1,1 +1,1 @@
-qslaundry# Qslaundry
+qslaundry#
